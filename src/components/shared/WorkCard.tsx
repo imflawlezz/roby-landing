@@ -8,7 +8,7 @@ interface WorkCardProps {
 
 export const WorkCard = ({ imageUrl, title, categories }: WorkCardProps) => {
     return (
-        <div className="w-full sm:max-w-md md:max-w-md lg:max-w-lg group">
+        <div className="w-full sm:max-w-md md:max-w-md lg:max-w-lg group pt-2">
             <div className="relative w-full h-auto overflow-hidden">
                 <Image
                     src={imageUrl}

@@ -61,7 +61,7 @@ export const Works = () => {
                     ))}
                 </div>
 
-                <div className="space-y-1 md:space-y-2 lg:space-y-4 lg:translate-y-30">
+                <div className="space-y-1 md:space-y-2 lg:space-y-4 translate-0 lg:translate-y-30">
                     {works.filter((_, i) => i % 2 === 1).map((work, index) => (
                         <WorkCard key={`right-${index}`} {...work} />
                     ))}
