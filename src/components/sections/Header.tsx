@@ -65,7 +65,7 @@ export const Header = () => {
                         }}
                     >
                         <div className="hidden lg:flex flex-col justify-center gap-1 transition-all duration-300">
-                            <p className="text-xs lg:text-lg text-gray-500">
+                            <p className="text-xs lg:text-lg text-[var(--paragraph)]">
                                 A creative agency based in Helsinki.
                             </p>
                             <a

@@ -4,6 +4,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --paragraph: #747474;
   --font-roboto: #{roboto.style.fontFamily};
   --font-roboto-mono: #{robotoMono.style.fontFamily};
 }
