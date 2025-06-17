@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-interface BlogCardProps {
+export interface BlogCardProps {
     imageUrl: string;
     date: string;
     category: string;
