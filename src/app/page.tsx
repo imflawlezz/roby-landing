@@ -9,6 +9,7 @@ import {Skills} from "@/components/sections/Skills";
 import {Facts} from "@/components/sections/Facts";
 import {Blog} from "@/components/sections/Blog";
 import {Contacts} from "@/components/sections/Contacts";
+import {Footer} from "@/components/sections/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
           <Facts/>
           <Blog/>
           <Contacts/>
+          <Footer/>
       </>
   );
 }
