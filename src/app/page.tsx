@@ -7,6 +7,7 @@ import {Brand} from "@/components/sections/Brand";
 import {Reviews} from "@/components/sections/Reviews";
 import {Skills} from "@/components/sections/Skills";
 import {Facts} from "@/components/sections/Facts";
+import {Blog} from "@/components/sections/Blog";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <Reviews/>
           <Skills/>
           <Facts/>
+          <Blog/>
       </>
   );
 }
