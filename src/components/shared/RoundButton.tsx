@@ -37,7 +37,6 @@ export const RoundButton = ({
         <div className={`${baseStyles} ${sizeStyles} ${className}`}>
             <div className={`absolute h-full w-full rounded-full ${currentVariant.border} transition-all group-hover:scale-105`} />
 
-            {/* Main button */}
             <div className={`flex h-full w-full items-center justify-center rounded-full ${currentVariant.background} ${currentVariant.text} ${currentVariant.hoverBackground} transition-transform group-hover:scale-100`}>
                 <div className="text-center text-xs uppercase md:text-sm">
                     <p>{text[0]}</p>
