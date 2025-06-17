@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import {RoundButton} from "@/components/shared/RoundButton";
 
 export const Hero = () => {
     return (
@@ -30,15 +31,7 @@ export const Hero = () => {
                         </div>
 
                         <div className="flex justify-start">
-                            <div className="group relative h-24 w-24 cursor-pointer md:h-28 md:w-28 lg:h-32 lg:w-32">
-                                <div className="absolute h-full w-full rounded-full border-2 border-white transition-all group-hover:scale-105 lg:border-black" />
-                                <div className="flex h-full w-full items-center justify-center rounded-full bg-white text-black transition-all group-hover:scale-100 group-hover:bg-gray-100 lg:bg-black lg:text-white lg:group-hover:bg-gray-900">
-                                    <div className="text-center text-xs uppercase md:text-sm">
-                                        <p>work</p>
-                                        <p>with us</p>
-                                    </div>
-                                </div>
-                            </div>
+                            <RoundButton variant={'black'} text={['work', 'with us']}/>
                         </div>
                     </div>
                 </div>
