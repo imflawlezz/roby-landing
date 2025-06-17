@@ -6,6 +6,7 @@ import {Works} from "@/components/sections/Works";
 import {Brand} from "@/components/sections/Brand";
 import {Reviews} from "@/components/sections/Reviews";
 import {Skills} from "@/components/sections/Skills";
+import {Facts} from "@/components/sections/Facts";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <Brand/>
           <Reviews/>
           <Skills/>
+          <Facts/>
       </>
   );
 }
