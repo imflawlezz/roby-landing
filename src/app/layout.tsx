@@ -22,13 +22,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (
+return (
     <html lang="en">
-      <body
-        className={`${roboto.variable} ${robotoMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+        <head>
+            <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+        </head>
+        <body
+            className={`${roboto.variable} ${robotoMono.variable} antialiased`}>
+            {children}
+        </body>
     </html>
-  );
+);
 }
